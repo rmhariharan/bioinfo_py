@@ -1,2 +1,2 @@
-# Some-general-bioinformaticsy-code
+# Bioinfomratics code
 Bits and pieces of python code for doing routine bioinformatics stuff...
