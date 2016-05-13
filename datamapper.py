@@ -9,7 +9,7 @@ a dataframe containing the matched rows extracted from the target dataframe'''
         self.Tar_file_col = Tar_file_col
         self.Output_path = Output_path
 
-    def dataMap(self):
+    def datamap(self):
         
         import pandas as pd
 
@@ -31,7 +31,7 @@ a dataframe containing the matched rows extracted from the target dataframe'''
         dataframe_out.to_csv(self.Output_path,index = False)
         assert ".csv" in self.Output_path
 
-        print("Data mapping completed and a new file has been generated")
+        return "Data mapping completed and a new file has been generated"
     
 
 
