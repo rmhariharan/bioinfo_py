@@ -1,4 +1,4 @@
-class Probe_Collapser (object):
+class ProbeCollapser (object):
     '''Collapses rows for probes from the same gene by averaging across the rows. E.g. Different Affy probes for the same
     Entrez identifier'''
     
